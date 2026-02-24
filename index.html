@@ -188,7 +188,7 @@
 
 			  <div class="accordion">
 
-				  <table class="records" id="records">
+				  <table class="records" id="dtRecords">
 					<thead>
 					  <tr>
 						<th class="col-id">Reference Number</th>
@@ -296,4 +296,10 @@
 	</body>
 <script src="script.js"></script>
 <script src="https://cdn.datatables.net/v/dt/dt-2.3.7/datatables.min.js" integrity="sha384-aQ8I1X2x8U0AR8D7C4Ah0OvZlwMslQdN5YDAQBA56jXrrhcECijs/i7H+5DDrlV1" crossorigin="anonymous"></script>
+<script>
+$(document).ready( function () {
+    $('#dtRecords').DataTable();
+} );
+</script>
+
 </html>
