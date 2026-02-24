@@ -275,7 +275,7 @@ body{
   min-width:820px;
 }
 
-.records thead th{
+.records thead th, .records tfoot th {
   background:#f6f7f9;
   border-top:1px solid var(--line);
   border-bottom:1px solid var(--line);
